@@ -1,0 +1,68 @@
+/* Element. Selects one element to contain the properties. */
+body {
+	background-image: url(PolarBear.jpeg);
+	background-size: cover;
+}
+/* Element, Element. Both contain the properties below */
+h2 {
+	color: #e7d9d8;
+	text-align: center;
+	border: 5px solid rgba(170, 255, 255, 0.4);
+}
+
+p {
+    color
+}
+
+li {
+	list-style: -moz-linear-gradient(3);
+	display: inline-block;
+}
+.top {
+    background-color:rgba(0,0,180, 0.6);
+    color: white;
+    font-size: 18px;
+}
+
+#About1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.LogIn p {
+	color: black;
+	text-align: left;
+}
+.Orangutan {
+	color: red;
+	font-size: 30px;
+    font-display: bold;
+    line-height: 2.0;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.column2 {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+    position: absolute;
+}
+
+/* -- Class= selects multiple selectors. (I.E multiple divs)
+ -- id= Select just one section (I.E- Div1 containing 6 paragraphs)
+ -- Element Element= All elements inside the 1st EL are effected by the properties
+ -- Element + Element= Any element stright after the first will be affected by the properties.
+ -- !important= Overrides all. Not recommended to use.
+
+ 1. Specific is top dawg.
+ 2. Importance
+ 3. Source order*/
